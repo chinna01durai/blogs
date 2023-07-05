@@ -7,7 +7,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetchpost = async () => {
-      const response = await fetch(
+      const response = await  fetch(
         "https://jsonplaceholder.typicode.com/posts"
       );
 
