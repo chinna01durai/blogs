@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px 20px;
+
+}
+header{
+    background-color: rgb(246, 171, 86);
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+
+}
+.title{
+ font-weight: bold;
+}
